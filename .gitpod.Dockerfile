@@ -1,5 +1,6 @@
 FROM ubuntu:latest
-                    
+
+RUN apt-get -q update && apt-get install -yq curl git  
 USER gitpod
 
 # Install custom tools, runtime, etc. using apt-get
