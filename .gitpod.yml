@@ -1,0 +1,5 @@
+tasks:
+  - init: "wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash"
+    command: "nvm install node && nvm alias default node"
+image:
+  file: .gitpod.Dockerfile
