@@ -1,4 +1,4 @@
 tasks:
-  - command: "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash && . ~/.bashrc && nvm install node && nvm alias default node"
+  - command: "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash && . ~/.bashrc && nvm install node && nvm alias default node"
 image:
   file: .gitpod.Dockerfile
